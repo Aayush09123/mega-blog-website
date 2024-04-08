@@ -8,5 +8,6 @@ import Container from "./container/Container";
 import RTE from "./RTE";
 import Signup from "./Signup";
 import Login from "./Login";
+import PostForm from "./post-form/PostForm";
 
-export { Header, Footer, Logo, LogoutBtn, Container, Button, Input, RTE, Signup, Login }
+export { Header, Footer, Logo, LogoutBtn, Container, Button, Input, RTE, Signup, Login, PostForm }
