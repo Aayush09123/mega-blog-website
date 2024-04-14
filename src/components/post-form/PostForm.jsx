@@ -9,7 +9,7 @@ import { useSelector } from "react-redux";
 
 const PostForm = ({ post }) => {
     const navigate = useNavigate();
-    const userData = useSelector(state => state.user.userData)
+    const userData = useSelector(state => state.auth.userData)
     const { register, handleSubmit, watch, setValue, control, getValues } = useForm({
         defaultValues: {
             title: post?.title || "",
